@@ -34,7 +34,7 @@ public class PlayerController2D : MonoBehaviour
 
     [Header("Respawn Parameters")]
     public Transform respawnPoint;
-    public SceneChanger sceneManagerScript;
+   // public SceneChanger sceneManagerScript;
     public string gameOverScene;
 
 
