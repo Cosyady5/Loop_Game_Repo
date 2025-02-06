@@ -804,7 +804,12 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 569b14b3094d14a4182859bccc3ec5fc, type: 3}
   - {fileID: 8300000, guid: f3dc4c816bcdbb248966b2ff6338f574, type: 3}
   - {fileID: 8300000, guid: 9bcc316cb73ae0a45ab32a4b79ef5351, type: 3}
-  sfxLibrary: []
+  sfxLibrary:
+  - {fileID: 8300000, guid: d9c14b7a14a4c2a47b29f41a2b84db08, type: 3}
+  - {fileID: 8300000, guid: c1576431e2bdc774b938d479cc29e716, type: 3}
+  - {fileID: 8300000, guid: db03d065a80f20c4f8fe0fe5eca4313d, type: 3}
+  - {fileID: 8300000, guid: b460d01dd9a2bfb4aa2dd441f14d7333, type: 3}
+  - {fileID: 8300000, guid: c82c75bb0fb55ad439f7041066c34b3d, type: 3}
 --- !u!1 &1795723753
 GameObject:
   m_ObjectHideFlags: 0
