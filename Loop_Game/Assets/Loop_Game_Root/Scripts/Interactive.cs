@@ -13,6 +13,7 @@ public class Interactive : MonoBehaviour
         {
             GetComponent<SpriteRenderer>().enabled = true;
             dialogueactive = true;
+            AudioManager.Instance.PlaySFX(7);
         }
     }
     private void OnTriggerExit2D(Collider2D other)
@@ -21,12 +22,14 @@ public class Interactive : MonoBehaviour
         {
             GetComponent<SpriteRenderer>().enabled = false;
             dialogueactive = false;
+            
         }
     }
     private void Update()
     {
         if (dialogueactive && Input.GetKeyDown(KeyCode.E))
         {
+            AudioManager.Instance.PlaySFX(4);
             dialogue.SetActive(true);
         }
     }
