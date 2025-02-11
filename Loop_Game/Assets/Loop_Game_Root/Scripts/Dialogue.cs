@@ -7,6 +7,7 @@ public class Dialogue : MonoBehaviour
 {
     private TextMeshProUGUI dialogueText;
     private float typingTime = 0.05f;
+    private AudioSource audioDialogo;
 
     public GameObject dialogueActive;
     public GameObject dialogueNext;
@@ -16,6 +17,8 @@ public class Dialogue : MonoBehaviour
 
     void Start()
     {
+        audioDialogo = GetComponent<AudioSource>();
+
         dialogueText = GetComponent<TextMeshProUGUI>();
         if (dialogueText != null)
         {
@@ -30,7 +33,7 @@ public class Dialogue : MonoBehaviour
         foreach (char ch in fullText)
         {
             dialogueText.text += ch;
-            AudioManager.Instance.PlaySFX(5);
+            audioDialogo.PlayOneShot(audioDialogo.clip);
             yield return new WaitForSeconds(typingTime);
         }
     }
