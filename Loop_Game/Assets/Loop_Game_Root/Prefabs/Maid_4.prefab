@@ -192,7 +192,7 @@ MonoBehaviour:
   groundCheckRadius: 0.1
   groundLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   respawnPoint: {fileID: 0}
   gameOverScene: 
 --- !u!70 &5223529893075020416

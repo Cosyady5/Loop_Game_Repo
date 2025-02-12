@@ -153,15 +153,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitForce: 0
   damageCooldown: 2
-  speed: 2
+  speed: 1
   isFacingRight: 0
-  jumpForce: 5
+  jumpForce: 0
   isGrounded: 0
   groundCheck: {fileID: 736003224520706604}
   groundCheckRadius: 0.1
   groundLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   respawnPoint: {fileID: 0}
   gameOverScene: 
 --- !u!70 &3674867735693339882
