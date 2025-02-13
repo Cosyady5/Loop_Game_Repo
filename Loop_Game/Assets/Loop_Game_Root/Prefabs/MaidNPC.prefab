@@ -48,8 +48,8 @@ GameObject:
   - component: {fileID: 7955175082037613621}
   - component: {fileID: 2126532181141669234}
   m_Layer: 0
-  m_Name: Maid_1
-  m_TagString: Player
+  m_Name: MaidNPC
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
