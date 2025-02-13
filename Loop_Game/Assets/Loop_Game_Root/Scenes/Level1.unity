@@ -20823,6 +20823,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPCPrincess (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4030522231570245347, guid: c3100da5c12484a4297f0eab8ebb00a8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6462807970767609179, guid: c3100da5c12484a4297f0eab8ebb00a8, type: 3}
       propertyPath: dialogue
       value: 
