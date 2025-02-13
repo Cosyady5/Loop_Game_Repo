@@ -7468,7 +7468,7 @@ Transform:
   m_GameObject: {fileID: 647441428}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.57, y: -0.25, z: -10}
+  m_LocalPosition: {x: -7.58, y: -1.47, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10531,10 +10531,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a0502b644b93c74885314fa5a7085f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  disableObject: {fileID: 819859836}
-  disableObject2: {fileID: 0}
   activateObject: {fileID: 733963586}
-  activateObject2: {fileID: 940287946}
+  disableObject: {fileID: 819859836}
+  deactivateDelay: 3
 --- !u!1 &879869748
 GameObject:
   m_ObjectHideFlags: 0
@@ -13943,10 +13942,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a0502b644b93c74885314fa5a7085f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  disableObject: {fileID: 940287946}
-  disableObject2: {fileID: 0}
   activateObject: {fileID: 1359322896}
-  activateObject2: {fileID: 0}
+  disableObject: {fileID: 940287946}
+  deactivateDelay: 3
 --- !u!1 &1018156126
 GameObject:
   m_ObjectHideFlags: 0
@@ -14044,11 +14042,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6466297341029538767, guid: bce6453e7d8c1aa4abd3cfaafa9400b2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 27.57
+      value: -7.58
       objectReference: {fileID: 0}
     - target: {fileID: 6466297341029538767, guid: bce6453e7d8c1aa4abd3cfaafa9400b2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.75
+      value: -1.97
       objectReference: {fileID: 0}
     - target: {fileID: 6466297341029538767, guid: bce6453e7d8c1aa4abd3cfaafa9400b2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16270,7 +16268,7 @@ Transform:
   m_GameObject: {fileID: 1560387096}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.57, y: -0.25, z: -10}
+  m_LocalPosition: {x: -7.58, y: -1.47, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19693,10 +19691,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a0502b644b93c74885314fa5a7085f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  disableObject: {fileID: 1761409512}
-  disableObject2: {fileID: 0}
   activateObject: {fileID: 1521911383}
-  activateObject2: {fileID: 0}
+  disableObject: {fileID: 1761409512}
+  deactivateDelay: 3
 --- !u!4 &1761409514
 Transform:
   m_ObjectHideFlags: 0
