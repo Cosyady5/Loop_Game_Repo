@@ -6,6 +6,30 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Loop_Game_Root/Scenes/SceneTest.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: "Assets/Loop_Game_Root/Scenes/MainMen\xFA.unity"
+    guid: c144cb8a9ced77245876713c4d917f5a
+  - enabled: 1
+    path: Assets/Loop_Game_Root/Scenes/Tutorial.unity
+    guid: 789a11aaefccd5e4da9a3dfc9c6655f3
+  - enabled: 1
+    path: Assets/Loop_Game_Root/Scenes/Level0.unity
+    guid: a3e9cf59135bf7045832b9bd5435c805
+  - enabled: 1
+    path: Assets/Loop_Game_Root/Scenes/Level1.unity
+    guid: f240653973d1cfd4f8b3f23d3cf9c9a3
+  - enabled: 1
+    path: Assets/Loop_Game_Root/Scenes/Level2.unity
+    guid: c5a7e9a34df7db44ab47d6a679777a07
+  - enabled: 1
+    path: Assets/Loop_Game_Root/Scenes/Level3.unity
+    guid: e56cab13fcd0be84fab3463cc73b407c
+  - enabled: 1
+    path: Assets/Loop_Game_Root/Scenes/Level4.unity
+    guid: 57b728f1792501040bfa80f40853081f
+  - enabled: 1
+    path: Assets/Loop_Game_Root/Scenes/Level5.unity
+    guid: ddb4d6b2a3d58ef42972c7916963e401
+  - enabled: 1
+    path: Assets/Loop_Game_Root/Scenes/Level6.unity
+    guid: e59160bcc776cfe4184105a16701bc5d
   m_configObjects: {}
