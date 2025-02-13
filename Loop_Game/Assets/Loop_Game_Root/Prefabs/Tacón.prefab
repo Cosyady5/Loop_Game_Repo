@@ -157,7 +157,7 @@ GameObject:
   - component: {fileID: 3514979580764743154}
   - component: {fileID: 4335788491085509269}
   m_Layer: 0
-  m_Name: PickUp
+  m_Name: "Tac\xF3n"
   m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -301,6 +301,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a0502b644b93c74885314fa5a7085f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  disableObject: {fileID: 0}
-  disableObject2: {fileID: 0}
   activateObject: {fileID: 0}
+  disableObject: {fileID: 8785997614378614220}
+  deactivateDelay: 3
