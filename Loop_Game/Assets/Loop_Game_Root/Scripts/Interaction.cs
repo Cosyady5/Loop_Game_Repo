@@ -6,7 +6,6 @@ public class Interaction : MonoBehaviour
 {
     public GameObject activateObject;
     public GameObject disableObject;
-    public float deactivateDelay = 3f; // Tiempo en segundos antes de desactivar activateObject
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -15,7 +14,6 @@ public class Interaction : MonoBehaviour
             if (activateObject != null)
             {
                 activateObject.SetActive(true);
-                Invoke(nameof(DeactivateActivateObject), deactivateDelay); // Desactiva después de 3 segundos
             }
 
             if (disableObject != null)
@@ -25,11 +23,4 @@ public class Interaction : MonoBehaviour
         }
     }
 
-    private void DeactivateActivateObject()
-    {
-        if (activateObject != null)
-        {
-            activateObject.SetActive(false);
-        }
-    }
 }

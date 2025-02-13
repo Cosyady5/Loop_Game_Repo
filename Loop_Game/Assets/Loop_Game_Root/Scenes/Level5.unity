@@ -6492,7 +6492,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13b237f7ed1292b46ac2ec6b9a27e9ee, type: 3}
---- !u!1 &936655593 stripped
+--- !u!1 &926087077 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2268567050499550175, guid: 13b237f7ed1292b46ac2ec6b9a27e9ee, type: 3}
   m_PrefabInstance: {fileID: 926087076}
@@ -6694,8 +6694,8 @@ GameObject:
   - component: {fileID: 1083019330}
   - component: {fileID: 1083019329}
   - component: {fileID: 1083019328}
-  - component: {fileID: 1083019332}
   - component: {fileID: 1083019331}
+  - component: {fileID: 1083019334}
   - component: {fileID: 1083019333}
   m_Layer: 0
   m_Name: Collar perlas
@@ -6806,21 +6806,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemID: Collar
---- !u!114 &1083019332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1083019327}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a0502b644b93c74885314fa5a7085f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activateObject: {fileID: 936655593}
-  disableObject: {fileID: 1083019327}
-  deactivateDelay: 3
 --- !u!61 &1083019333
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6866,6 +6851,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1735904, y: 1.4490601}
   m_EdgeRadius: 0
+--- !u!114 &1083019334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1083019327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655852dee4d2f37429be0c0913f4ec95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activatePickup: {fileID: 926087077}
+  disablePickup: {fileID: 1083019327}
+  deactivateDelay: 3
 --- !u!1 &1106856343
 GameObject:
   m_ObjectHideFlags: 3

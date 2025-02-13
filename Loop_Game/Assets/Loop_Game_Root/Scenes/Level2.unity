@@ -12081,7 +12081,7 @@ Transform:
   m_GameObject: {fileID: 1514118165}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -45.981472, y: -1.28999, z: -10}
+  m_LocalPosition: {x: -45.982258, y: -1.28999, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16018,11 +16018,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1925523495}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a0502b644b93c74885314fa5a7085f6, type: 3}
+  m_Script: {fileID: 11500000, guid: 655852dee4d2f37429be0c0913f4ec95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activateObject: {fileID: 1540014468}
-  disableObject: {fileID: 1925523495}
+  activatePickup: {fileID: 1540014468}
+  disablePickup: {fileID: 1925523495}
   deactivateDelay: 3
 --- !u!1 &1975518078
 GameObject:
