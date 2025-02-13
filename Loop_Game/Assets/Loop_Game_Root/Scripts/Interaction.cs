@@ -7,6 +7,7 @@ public class Interaction : MonoBehaviour
     public GameObject disableObject;
     public GameObject disableObject2;
     public GameObject activateObject;
+    public GameObject activateObject2;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -15,6 +16,7 @@ public class Interaction : MonoBehaviour
             if (activateObject != null)
             {
                 activateObject.SetActive(true);
+                activateObject2.SetActive(true);
             }
             if (disableObject != null)
             {
