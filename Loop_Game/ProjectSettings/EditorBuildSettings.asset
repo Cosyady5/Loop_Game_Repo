@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Loop_Game_Root/Scenes/Level6.unity
     guid: e59160bcc776cfe4184105a16701bc5d
+  - enabled: 1
+    path: Assets/Loop_Game_Root/Scenes/Level7.unity
+    guid: cf7e3969e4561ea49a7f8d11b32a4952
   m_configObjects: {}
