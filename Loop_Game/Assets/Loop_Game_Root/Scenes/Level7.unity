@@ -286,6 +286,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 171805961217413948, guid: bce6453e7d8c1aa4abd3cfaafa9400b2, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 51e02f4e298ca1247a4faa958b35a047, type: 2}
     - target: {fileID: 4030522231570245347, guid: bce6453e7d8c1aa4abd3cfaafa9400b2, type: 3}
       propertyPath: m_Name
       value: PlayerPrincesa
@@ -16495,6 +16499,7 @@ MonoBehaviour:
   dialogueNext: {fileID: 0}
   dialogueBack: {fileID: 0}
   dialoguePanel: {fileID: 0}
+  scene: 0
 --- !u!61 &1450320680
 BoxCollider2D:
   m_ObjectHideFlags: 0

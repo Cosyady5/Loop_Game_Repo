@@ -7466,6 +7466,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Maid_1
       objectReference: {fileID: 0}
+    - target: {fileID: 8779779674198045837, guid: e8e1a3b4b87cc974ca5a5cab374183e2, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 51e02f4e298ca1247a4faa958b35a047, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16668,6 +16672,7 @@ MonoBehaviour:
   dialogueNext: {fileID: 0}
   dialogueBack: {fileID: 1394973409}
   dialoguePanel: {fileID: 108354269}
+  scene: 0
 --- !u!61 &1450320680
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20773,6 +20778,7 @@ MonoBehaviour:
   dialogueNext: {fileID: 1450320678}
   dialogueBack: {fileID: 1257554341}
   dialoguePanel: {fileID: 108354269}
+  scene: 0
 --- !u!114 &1793089480
 MonoBehaviour:
   m_ObjectHideFlags: 0

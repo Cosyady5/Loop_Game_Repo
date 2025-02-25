@@ -3722,6 +3722,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4613312366096919126, guid: 4b725b3d629def545b0f2628037f6fe7, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 51e02f4e298ca1247a4faa958b35a047, type: 2}
     - target: {fileID: 8333069018656003803, guid: 4b725b3d629def545b0f2628037f6fe7, type: 3}
       propertyPath: m_Name
       value: Maid_4
@@ -19486,6 +19490,7 @@ MonoBehaviour:
   dialogueNext: {fileID: 1975105975}
   dialogueBack: {fileID: 696012455}
   dialoguePanel: {fileID: 1058322118}
+  scene: 0
 --- !u!114 &1358315168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20823,6 +20828,7 @@ MonoBehaviour:
   dialogueNext: {fileID: 0}
   dialogueBack: {fileID: 1007463255}
   dialoguePanel: {fileID: 1058322118}
+  scene: 0
 --- !u!61 &1975105977
 BoxCollider2D:
   m_ObjectHideFlags: 0

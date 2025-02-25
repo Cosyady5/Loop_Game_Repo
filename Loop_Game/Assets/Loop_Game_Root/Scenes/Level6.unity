@@ -2373,6 +2373,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3636643294142585483, guid: e55dbd8af497bcd429be200f7fd6918d, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 51e02f4e298ca1247a4faa958b35a047, type: 2}
     - target: {fileID: 7520925290564327537, guid: e55dbd8af497bcd429be200f7fd6918d, type: 3}
       propertyPath: m_Name
       value: Maid_6
@@ -8896,6 +8900,7 @@ MonoBehaviour:
   dialogueNext: {fileID: 0}
   dialogueBack: {fileID: 1453539298}
   dialoguePanel: {fileID: 217096254}
+  scene: 0
 --- !u!61 &868515844
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21697,6 +21702,7 @@ MonoBehaviour:
   dialogueNext: {fileID: 868515842}
   dialogueBack: {fileID: 1969690503}
   dialoguePanel: {fileID: 217096254}
+  scene: 0
 --- !u!114 &1982227112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22979,7 +22985,7 @@ Transform:
   m_GameObject: {fileID: 2094489190}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.081587, y: -1.06653, z: -10}
+  m_LocalPosition: {x: 17.078096, y: -1.06654, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

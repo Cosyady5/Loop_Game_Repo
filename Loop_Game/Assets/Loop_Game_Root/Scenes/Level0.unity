@@ -10692,6 +10692,55 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &918603397
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 918603399}
+  - component: {fileID: 918603398}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &918603398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918603397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfcc16f26984714488808190cc48e184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueActive: {fileID: 918603397}
+  dialogueNext: {fileID: 0}
+  dialogueBack: {fileID: 795157393}
+  dialoguePanel: {fileID: 1359322896}
+  scene: 0
+--- !u!4 &918603399
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918603397}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.6204605, y: -1.3197724, z: -0.114246845}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &921591300
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13916,7 +13965,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.04452786, y: 0.76526177}
+  m_Offset: {x: -0.06552887, y: -1.5171032}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -13927,7 +13976,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.1391285, y: 5.8552685}
+  m_Size: {x: 1.1220055, y: 1.2905389}
   m_EdgeRadius: 0
 --- !u!114 &940287949
 MonoBehaviour:
@@ -14034,6 +14083,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 171805961217413948, guid: bce6453e7d8c1aa4abd3cfaafa9400b2, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 51e02f4e298ca1247a4faa958b35a047, type: 2}
     - target: {fileID: 4030522231570245347, guid: bce6453e7d8c1aa4abd3cfaafa9400b2, type: 3}
       propertyPath: m_Name
       value: Player
@@ -15047,6 +15100,7 @@ MonoBehaviour:
   dialogueNext: {fileID: 1944899425}
   dialogueBack: {fileID: 650695901}
   dialoguePanel: {fileID: 1359322896}
+  scene: 1
 --- !u!114 &1232938783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20236,7 +20290,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.020191193, y: 0.9300945}
+  m_Offset: {x: -0.0308218, y: 0.9300945}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -20247,7 +20301,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.6057167, y: 2.860189}
+  m_Size: {x: 7.9551525, y: 2.860189}
   m_EdgeRadius: 0
 --- !u!114 &1944899427
 MonoBehaviour:
@@ -20290,9 +20344,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueActive: {fileID: 1944899425}
-  dialogueNext: {fileID: 0}
-  dialogueBack: {fileID: 795157393}
+  dialogueNext: {fileID: 918603397}
+  dialogueBack: {fileID: 1232938779}
   dialoguePanel: {fileID: 1359322896}
+  scene: 1
 --- !u!1 &1954840470
 GameObject:
   m_ObjectHideFlags: 0
@@ -20828,3 +20883,4 @@ SceneRoots:
   - {fileID: 1018156128}
   - {fileID: 424540445}
   - {fileID: 2058098042}
+  - {fileID: 918603399}
